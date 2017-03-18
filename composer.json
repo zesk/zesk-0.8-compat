@@ -1,0 +1,20 @@
+{
+  "name" : "zesk/zesk-0.8-compat",
+  "description" : "Compatibility for Zesk Application Framework with v0.8",
+  "require" : {
+    "zesk/zesk" : ">=0.9",
+    "psr/log": "^1.0"
+  },
+  "authors" : [ {
+    "name" : "Kent Davidson"
+  } ],
+  "keywords" : [ "zesk", "application", "framework", "compatibility" ],
+  "autoload" : {
+    "psr4" : {
+    	"zesk\\": "classes/"
+    }
+  },
+  "type" : "library",
+  "license" : "MIT",
+  "homepage" : "http://zesk.com"
+}
