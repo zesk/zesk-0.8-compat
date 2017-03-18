@@ -10,7 +10,7 @@
   } ],
   "keywords" : [ "zesk", "application", "framework", "compatibility" ],
   "autoload" : {
-    "psr4" : {
+    "psr-4" : {
     	"zesk\\": "classes/"
     }
   },
